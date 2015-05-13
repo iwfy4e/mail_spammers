@@ -47,7 +47,7 @@ arr = [
 	]
 
 #debugging
-# arr = ['test@gmail.com']
+arr = ['griff.stewie4171@gmail.com']
 
 mailserver = smtplib.SMTP('smtp.gmail.com',587)
 mailserver.ehlo()
@@ -58,7 +58,6 @@ xml_content = fp.read()
 root = ET.fromstring(xml_content)
 mailserver.login('iwillmailyou4ever@gmail.com', 'gofuckyour')
 print "Logged into mail"
-print "Sending mails to motherfuckers"
 for item in root[0]:
 	if item.tag == 'item':
 		for mail_id in arr:
