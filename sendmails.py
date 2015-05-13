@@ -48,7 +48,7 @@ arr = [
 
 #debugging
 
-arr = ['griff.stewie4171@gmail.com']
+# arr = ['test@gmail.com']
 
 mailserver = smtplib.SMTP('smtp.gmail.com',587)
 mailserver.ehlo()
@@ -57,7 +57,7 @@ mailserver.ehlo()
 fp = urllib.urlopen('https://www.yahoo.com/health/rss')
 xml_content = fp.read()
 root = ET.fromstring(xml_content)
-mailserver.login('iwillmailyou4ever@gmail.com', 'gofuckyour')
+mailserver.login('iwillmailyou4ever@gmail.com', 'IWONTTELLYOUTHIS')
 print "Logged into mail"
 for item in root[0]:
 	if item.tag == 'item':
