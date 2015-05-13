@@ -47,6 +47,7 @@ arr = [
 	]
 
 #debugging
+
 arr = ['griff.stewie4171@gmail.com']
 
 mailserver = smtplib.SMTP('smtp.gmail.com',587)
