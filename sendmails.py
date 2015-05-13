@@ -43,7 +43,8 @@ arr = [
 		'khushali.shah@radixweb.com',
 		'neatensgroup@gmail.com',
 		'resumes@radixweb.com',
-		'pravin.cp2@wipro.com'
+		'pravin.cp2@wipro.com',
+		'info@rbc.ca'
 	]
 
 #debugging
